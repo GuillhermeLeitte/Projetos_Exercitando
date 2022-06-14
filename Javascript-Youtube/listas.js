@@ -42,3 +42,10 @@ const numbers = [1,2,3,4,5]
 
 console.log(numbersMultipliedByTwo) */
 
+const ages = [18, 13, 27, 30, 22, 40]
+
+/* let evenAges = ages.filter(function(i){
+    return i % 2 == 0;
+});
+console.log(evenAges); */
+
