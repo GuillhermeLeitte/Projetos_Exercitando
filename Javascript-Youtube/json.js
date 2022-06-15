@@ -16,8 +16,11 @@ const todos = [
     },
 ];
 
-// const todosJSON = JSON.stringify(todos)
+ const todosJSON = JSON.stringify(todos)// Aqui transformei a lista em JSON
 // console.log(todosJSON)
 
+// E o contrario, quando for transformar json para lista
 
+const jsonList = JSON.parse(todosJSON);
+// console.log(jsonList)
 
